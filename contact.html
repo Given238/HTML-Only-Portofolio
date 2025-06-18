@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Contacts</title>
+        <meta name="description" content="Given's Contacts">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Given Jonathan">
+        <meta name="keywords" content="HTML, Frontend, Developer, Projects">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <header>
+            <nav>
+              <a href="index.html">Home</a>
+              <a href="projects.html">Projects</a>
+              <a href="Articles.html">Articles</a>
+              <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+
+        <main>
+            <h1>Contact Me</h1>
+            <form action="#" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="subject">Subject:</label><br>
+                <select id="subject" name="subject">
+                    <option value="hiring">I want to hire you!</option>
+                    <option value="collaboration">Let's Collab!</option>
+                    <option value="feedback">I think something could be a little better..</option>
+                    <option value="hello">I just want to say hello :D</option>
+                </select><br>
+
+                <br><label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+
+
+                <br><button type="submit">Send</button>
+
+
+            </form>
+        </main>
+    </body>
+</html>
